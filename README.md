@@ -37,7 +37,7 @@ Pseudocode:
 // place seed in gardenPlot<br>
 // SET growthStage and waterLevel
 
-7. Watering Plants
+7. Watering Plants<br>
 // IF user clicks on plant <br>
 // INCREASE waterLevel
 
@@ -48,7 +48,7 @@ Pseudocode:
 
 9. GameOver<br>
 // FOR each plant in gardenPlot<br>
-//IF waterLEvel === 0<br>
+//IF waterLevel === 0<br>
 //Display loseScreen
 
 10. Restart Option<br>
