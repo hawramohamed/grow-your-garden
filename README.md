@@ -17,37 +17,41 @@ User Stories:
 
 Pseudocode:
 
-1. Show landing page<br>
+1. Define variables
+
+2. Store cached element references
+
+3. Show landing page<br>
 // wait for user to click "start game" button
 
-2. Start Game<br>
+4. Start Game<br>
 // IF "start game" button is clicked<br>
 // show gameEnvironment and display seedSelection
 
-3. Seed Selection<br>
+5. Seed Selection<br>
 // ask user to pick seeds<br>
 // store selected seeds in userInventory 
 
-4. Planting and watering LOOP<br>
+6. Planting and watering LOOP<br>
 // FOR each seed in userInventory<br>
 // place seed in gardenPlot<br>
 // SET growthStage and waterLevel
 
-5. Watering Plants
+7. Watering Plants
 // IF user clicks on plant <br>
 // INCREASE waterLevel
 
-6. Growth Stages<br>
+8. Growth Stages<br>
 // FOR each plant in gardenPlot<br>
 //IF waterLevel is greater than equal to requiredWater<br>
 //INCREASE growthStage
 
-7. GameOver<br>
+9. GameOver<br>
 // FOR each plant in gardenPlot<br>
 //IF waterLEvel === 0<br>
 //Display loseScreen
 
-8. Restart Option<br>
+10. Restart Option<br>
 //IF user clicks "restart" button on loseScreen<br>
 // RESET gameEnvironment and go to landingPage
 
