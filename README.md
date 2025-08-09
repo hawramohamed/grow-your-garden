@@ -33,8 +33,7 @@ Pseudocode:
 // place seed in gardenPlot<br>
 // SET growthStage and waterLevel
 
-5.Watering Plants
-
+5. Watering Plants
 // IF user clicks on plant <br>
 // INCREASE waterLevel
 
