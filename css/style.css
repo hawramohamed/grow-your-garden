@@ -22,7 +22,6 @@
 .game-graphic {
   max-height: 33vmin;
   margin-bottom: 32px;
-  visibility: hidden;
   position: absolute;
 }
 
