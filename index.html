@@ -17,7 +17,7 @@
       <section class="button-wrapper">
         <button id="seeds-btn">Seeds</button>
         <div class="seeds-dropdown-container">
-            <select id="seed-dropdown" class="hidden"> <!--Dropdown menu for seed selection-->
+            <select id="seed-dropdown" > <!--Dropdown menu for seed selection-->
                 <option value="" disabled selected>Select a Seed</option>
                 <option value="Sunflower">Sunflower</option>
                 <option value="Lettuce">Lettuce</option>
@@ -34,7 +34,7 @@
             <span id="seeds-stat"></span>
         </p>
 
-        <p>Water:
+        <p>Thirst:
           <span id="water-stat">...</span>
         </p>
 
@@ -48,8 +48,12 @@
         <h2 id="message" class="hidden">
           Your garden died!
         </h2>
-        <img
-        />
+        <img id="seed-image"class="game-graphic"alt="a seed" src="./assets/seed.png"/>
+        <img id="growth-image"class="game-graphic"alt="mid growth"src="./assets/2nd phase growth.png"/>
+        <img id="sunflower-image"class="game-graphic"alt="Sunflower"src="./assets/sunflower.png"/>
+        <img id="strawberry-image"class="game-graphic"alt="Strawberry"src="./assets/strawberyy.png"/>
+        <img id="lettuce-image"class="game-graphic"alt="Sunflower"src="./assets/lettuce final.png"/>
+        
         <button id="restart" class="hidden">Play Again</button>
       </section>
     </main>

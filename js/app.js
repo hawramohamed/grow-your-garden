@@ -11,7 +11,8 @@ let timer;
 let gameOver;
 
 /*------------------------ Cached Element References ------------------------*/
-const seedsBtnEl = document.getElementById('seeds-btn');
+
+const seedsBtnEl = document.querySelector('#seeds-btn');
 const waterBtnEl = document.querySelector('#water-btn');
 
 const seedDropdownEl = document.getElementById('seed-dropdown');
@@ -21,6 +22,7 @@ const waterStatEl = document.querySelector('#water-stat');
 const gameLoseMsgEl = document.querySelector('#message');
 
 const resetBtnEl = document.querySelector('#restart');
+
 /*-------------------------------- Functions --------------------------------*/
 const gameStart = () => {
     waterStatUpdate();
@@ -74,3 +76,5 @@ seedsBtnEl.addEventListener('click', () => {
 });
 
 waterBtnEl.addEventListener('click', waterBtnClick);
+
+resetBtnEl.addEventListener('click', inital);

@@ -1,0 +1,33 @@
+
+#seed-image{
+    z-index: 2;
+}
+
+#growth-image{
+    z-index: 2;
+}
+
+#sunflower-image{
+    z-index: 2;
+}
+
+#strawberry-image{
+    z-index: 2;
+}
+
+#lettuce-image{
+    z-index: 2;
+}
+
+.game-graphic {
+  max-height: 33vmin;
+  margin-bottom: 32px;
+  visibility: hidden;
+  position: absolute;
+}
+
+
+
+.hidden {
+    visibility: hidden;
+}
