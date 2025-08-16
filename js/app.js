@@ -7,10 +7,10 @@ let stat = {
     water: 0,
 };
 
-let timer;
+let timer = 0;
 let gameOver;
 let waterClickCount = 0;
-
+let seedChosen = false;
 /*------------------------ Cached Element References ------------------------*/
 
 const seedsBtnEl = document.querySelector('#seeds-btn');
@@ -79,7 +79,7 @@ const render = () => {
     if(gameOver){
         resetBtnEl.classList.remove("hidden");
         gameLoseMsgEl.classList.remove("hidden");
-        // clearInterval(timer);
+        clearInterval(timer);
     }
 };
 
@@ -91,6 +91,12 @@ const dropdownDisplay = () => {
     }
 };
 
+const dropdownChosen = () => {
+    seedChosen = true;
+    if (!timer) {
+        timer = setInterval(gameStart, 2000)
+    }
+};
 
 const waterBtnClick = () => {
     stat.water = 0;
@@ -99,24 +105,35 @@ const waterBtnClick = () => {
 };
 
 const inital = () => {
+    
+
+    stat.water = 0;
+    waterClickCount = 0;
+    gameOver = false;
+
+    clearInterval(timer);
+    timer = 0;
+
+    // reset UI
     seedImage.classList.add("hidden");
     growthImage.classList.add("hidden");
     sunflowerImage.classList.add("hidden");
     strawberryImage.classList.add("hidden");
     lettuceImage.classList.add("hidden");
+
     resetBtnEl.classList.add("hidden");
     gameLoseMsgEl.classList.add("hidden");
-    stat.water = 0;
-    waterClickCount = 0;
-    gameOver = false;
-    timer = setInterval(gameStart, 2000);
-}
+
+    waterStatEl.textContent = stat.water;
+};
 
 inital();
 
 /*----------------------------- Event Listeners -----------------------------*/
 
 seedsBtnEl.addEventListener('click', dropdownDisplay);
+seedDropdownEl.addEventListener('change', dropdownChosen);
+
 waterBtnEl.addEventListener('click', waterBtnClick);
 
 resetBtnEl.addEventListener('click', inital);
