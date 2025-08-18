@@ -68,7 +68,6 @@ const growthUpdate = () => {
 
     //if statement for images    
     if(waterClickCount < 5){
-        console.log("unhiding")
         seedImage.classList.remove("hidden");
     } else if (waterClickCount < 8){
         growthImage.classList.remove("hidden");
