@@ -11,6 +11,7 @@ let timer = 0;
 let gameOver;
 let waterClickCount = 0;
 let seedChosen = false;
+let seedsClickCount = 0;
 /*------------------------ Cached Element References ------------------------*/
 
 const seedsBtnEl = document.querySelector('#seeds-btn');
@@ -18,7 +19,9 @@ const waterBtnEl = document.querySelector('#water-btn');
 
 const seedDropdownEl = document.querySelector('#seed-dropdown');
 
+const seedStatEl = document.querySelector('#seeds-stat');
 const waterStatEl = document.querySelector('#water-stat');
+const harvestStatEl = document.querySelector('#harvest-stat');
 
 const gameLoseMsgEl = document.querySelector('#message');
 const resetBtnEl = document.querySelector('#restart');
@@ -93,6 +96,8 @@ const dropdownDisplay = () => {
 
 const dropdownChosen = () => {
     seedChosen = true;
+    seedsClickCount++;
+    seedStatEl.textContent = seedsClickCount;
     if (!timer) {
         timer = setInterval(gameStart, 2000)
     }
@@ -109,6 +114,7 @@ const inital = () => {
 
     stat.water = 0;
     waterClickCount = 0;
+    seedsClickCount = 0;
     gameOver = false;
 
     clearInterval(timer);
@@ -125,6 +131,7 @@ const inital = () => {
     gameLoseMsgEl.classList.add("hidden");
 
     waterStatEl.textContent = stat.water;
+    seedStatEl.textContent = seedsClickCount;
 };
 
 inital();
