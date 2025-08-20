@@ -1,9 +1,28 @@
+![Logo](./assets/Grow_Your_Garden__1_-removebg-preview.png)
+
 Game summary:
 <br>
 
 “Grow a Garden” is a comforting, beginner friendly web game in which players plant seeds, water them, and watch their gardens grow over time. The game is straightforward and simply designed, encouraging nurturing and creativity through interactive growth phases and mild customization. 
 
 Players begin with a little piece of dirt and a handful of seeds. With each click, users plant, water, and care for their plants, watching them grow from tiny sprouts to beautiful blossoms. The game has simple controls, bright visuals, and a gradual advancement mechanism that rewards attention and care. 
+
+Getting started: 
+https://hawramohamed.github.io/grow-your-garden/
+
+- Choose Your Seed – Start by selecting a seed you'd like to grow.
+- Keep It Hydrated – Once the thirst counter begins, click the water button regularly to keep your plant alive and thriving.
+- Watch It Bloom – With enough care, your plant will reach full growth.
+- Harvest & Replant – When it's fully grown, harvest your plant and pick a new seed to begin the cycle again.
+🚨 Warning – Neglect your watering duties and your plant won't survive!
+
+Technologies Used: HTML, CSS and JavaScript.
+
+Future work:
+
+- Create a "menu" that keeps track of how many of each of type of plant has been harvested.
+- Make the sizing flexible for all devices. 
+
 
 User Stories:
 
