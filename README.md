@@ -13,7 +13,7 @@ https://hawramohamed.github.io/grow-your-garden/
 - Choose Your Seed – Start by selecting a seed you'd like to grow.
 - Keep It Hydrated – Once the thirst counter begins, click the water button regularly to keep your plant alive and thriving.
 - Watch It Bloom – With enough care, your plant will reach full growth.
-- Harvest & Replant – When it's fully grown, harvest your plant and pick a new seed to begin the cycle again.
+- Harvest & Replant – When it's fully grown, harvest your plant and pick a new seed to begin the cycle again.<br>
 🚨 Warning – Neglect your watering duties and your plant won't survive!
 
 Technologies Used: HTML, CSS and JavaScript.
