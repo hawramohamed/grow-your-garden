@@ -49,4 +49,6 @@ Pseudocode:
 // RESET gameEnvironment and go to landingPage
 
 
- 
+ References:
+
+ For the dropdown menu: https://www.w3schools.com/howto/howto_js_dropdown.asp
