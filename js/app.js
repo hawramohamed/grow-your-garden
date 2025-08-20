@@ -105,7 +105,6 @@ const harvestBtnClick = () => {
         clearInterval(timer);
         timer = 0;
 
-        console.log("hiding")
         //remove plants after harvest
         seedImage.classList.add("hidden");
         growthImage.classList.add("hidden");
