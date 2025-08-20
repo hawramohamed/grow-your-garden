@@ -3,7 +3,7 @@
 Game summary:
 <br>
 
-“Grow a Garden” is a comforting, beginner friendly web game in which players plant seeds, water them, and watch their gardens grow over time. The game is straightforward and simply designed, encouraging nurturing and creativity through interactive growth phases and mild customization. 
+“Grow Your Garden” is a comforting, beginner friendly web game in which players plant seeds, water them, and watch their gardens grow over time. The game is straightforward and simply designed, encouraging nurturing and creativity through interactive growth phases and mild customization. 
 
 Players begin with a little piece of dirt and a handful of seeds. With each click, users plant, water, and care for their plants, watching them grow from tiny sprouts to beautiful blossoms. The game has simple controls, bright visuals, and a gradual advancement mechanism that rewards attention and care. 
 
